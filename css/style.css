@@ -1,0 +1,379 @@
+/* &display=swap */
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;700;900&display=swap");
+
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1470px;
+	margin: 0 auto;
+	padding: 0 15px;
+	background: rgb(209, 208, 208);
+}
+/* ================================================================ */
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	line-height: 150%;
+	background: url("../img/fon.jpg") 0 0 / cover no-repeat fixed;
+}
+
+h1 {
+	font-family: "Roboto+Serif", sans-serif;
+	font-size: 48px;
+	line-height: 160%;
+	font-weight: 900;
+	text-align: center;
+	margin: 0 0 30px 0;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 160%;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 4px 3px 3px grey;
+}
+
+h3 {
+	font-family: "Roboto+Serif", sans-serif;
+	font-size: 36px;
+	line-height: 160%;
+	font-weight: 700;
+	text-shadow: 4px 3px 3px grey;
+	margin: 0 0 10px 0;
+}
+
+h4 {
+	text-align: center;
+	font-size: 36px;
+	line-height: 160%;
+	font-weight: 700;
+	text-decoration: overline;
+	margin: 0 0 2px 0;
+}
+
+.button {
+	display: inline-block;
+	margin: 0 5px 10px 0;
+	padding: 0 25px;
+	line-height: 3.15;
+	background-image: linear-gradient(145deg, hsl(236deg 100% 38%) 0%, hsl(255deg 89% 44%) 9%, hsl(263deg 91% 47%) 18%, hsl(270deg 96% 49%) 27%, hsl(278deg 100% 49%) 36%, hsl(288deg 100% 48%) 45%, hsl(298deg 100% 46%) 55%, hsl(306deg 100% 49%) 64%, hsl(316deg 100% 50%) 73%, hsl(328deg 100% 50%) 82%, hsl(339deg 100% 50%) 91%, hsl(350deg 100% 50%) 100%);
+	border-radius: 6px;
+	border: 1px solid #000;
+	box-shadow: inset 0px 0px 10px 0px #000, 3px 3px 10px 0 #000;
+}
+
+.button-last {
+	display: inline-block;
+	padding: 0 25px;
+	margin: 0 0 10px 0;
+	margin-bottom: 5px;
+	line-height: 3.15;
+	background-image: linear-gradient(145deg, hsl(236deg 100% 38%) 0%, hsl(255deg 89% 44%) 9%, hsl(263deg 91% 47%) 18%, hsl(270deg 96% 49%) 27%, hsl(278deg 100% 49%) 36%, hsl(288deg 100% 48%) 45%, hsl(298deg 100% 46%) 55%, hsl(306deg 100% 49%) 64%, hsl(316deg 100% 50%) 73%, hsl(328deg 100% 50%) 82%, hsl(339deg 100% 50%) 91%, hsl(350deg 100% 50%) 100%);
+	border-radius: 6px;
+	border: 1px solid #000;
+	box-shadow: inset 0px 0px 10px 0px #000, 3px 3px 10px 0 #000;
+}
+
+.button-text {
+	font-family: "Roboto+Serif", sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+}
+
+.header {
+	text-align: center;
+	margin: 0 0 150px 0;
+}
+
+.text-color {
+	margin: 0 0 20px 0;
+}
+
+.block-color {
+	max-width: 1400px;
+	max-height: 350px;
+	background: transparent;
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-color2 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: #4b0082;
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-color3 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: rgb(75, 0, 130, 0.5);
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-image {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto.jpg");
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-image2 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: linear-gradient(90deg, rgba(252, 0, 0, 1) 0%, rgba(255, 166, 0, 1) 50%, rgba(229, 255, 0, 1) 100%);
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-repeat {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto.jpg") no-repeat;
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-repeat2 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto.jpg") repeat-x;
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-repeat3 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto.jpg") repeat-y;
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-repeat4 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto.jpg") space;
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-repeat5 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto.jpg") round;
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-position {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto.jpg") 50% no-repeat;
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-position2 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto.jpg") 0 50% no-repeat;
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-position3 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto.jpg") 100% 100% no-repeat;
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-position4 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto.jpg") 65px 165px no-repeat;
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-attachment {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto2.jpg") 0 0 no-repeat scroll;
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-attachment2 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto2.jpg") 0 0 no-repeat fixed;
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-attachment3 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto2.jpg") 0 0 no-repeat local;
+	border: 3px solid #000;
+	overflow: auto;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-size {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto2.jpg") 0 0/100% auto no-repeat;
+	border: 3px solid #000;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-size2 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto2.jpg") 0 0 / auto 100% no-repeat;
+	border: 3px solid #000;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-size3 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto2.jpg") 0 0 / 100% 100% no-repeat;
+	border: 3px solid #000;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-size4 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto2.jpg") 0 0 / contain no-repeat;
+	border: 3px solid #000;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-size5 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto2.jpg") 0 0 / cover no-repeat;
+	border: 3px solid #000;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-size6 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: url("../img/foto2.jpg") 0 0 / 600px 300px no-repeat;
+	border: 3px solid #000;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-image3 {
+	max-width: 1400px;
+	max-height: 350px;
+	background: radial-gradient(ellipse at center, rgba(252, 0, 0, 1) 0%, rgba(255, 166, 0, 1) 50%, rgba(229, 255, 0, 1) 100%);
+	overflow: hidden;
+	border: 3px solid #000;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.block-color-text {
+	visibility: hidden;
+}
+
+.block-color-text {
+	visibility: hidden;
+}
+
+.text-kod {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.block2-color {
+	background: rgba(163, 163, 17, 0.425);
+}
+
+.block2-color p {
+	padding: 5px 15px;
+	margin: 0 0 15px 0;
+}
+
+.background {
+	margin: 0 0 150px 0;
+}
+
+.silki {
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+.block-ots {
+	margin: 0 0 100px 0;
+}
+
+.text-kod-ots {
+	padding: 0 0 0 20px;
+}
